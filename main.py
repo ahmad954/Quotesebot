@@ -12,9 +12,9 @@ keep_alive()
 
 data = pd.read_csv("qoutes-V3.csv")
 
-token = "EAAbpjm1UCZBkBAEYKZBMqlWwg1LlErQFm7BXPw3R0JvSO3wUssC5ZCQ9ug0f7R05ntuEsa543ngNHoH13bT0ZCiUzJdjB2xg8OODqlxcgrt5kfSqAU3cQZCEndrd6zv6rpAXATQRvZCD1MsJnnkj1UkIrsBxrg2xnzXG8zyiFRoYSZCewlzJzc8E"
+token = "YOUR-FACEBOOK-TOKEN"
 
-page_id = "106716052356455"
+page_id = "YOUR-PAGE-ID"
 url = f"https://graph.facebook.com/{page_id}/feed"
 
 
